@@ -1,18 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { CheckBoxComponent } from './checkbox-gjnana.component';
+import { CheckBoxGjnanaComponent } from './checkbox-gjnana.component';
 
 describe('CheckBoxComponent', () => {
-  let component: CheckBoxComponent;
-  let fixture: ComponentFixture<CheckBoxComponent>;
+  let component: CheckBoxGjnanaComponent;
+  let fixture: ComponentFixture<CheckBoxGjnanaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CheckBoxComponent]
-    })
-    .compileComponents();
-    
-    fixture = TestBed.createComponent(CheckBoxComponent);
+      imports: [CheckBoxGjnanaComponent],
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(CheckBoxGjnanaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
